@@ -125,7 +125,6 @@ def hartigan_missing(data, n_clusters, rs_for_initial_values=0):
         centroids.append(data[clusters == j].mean(axis=0))
     return clusters, centroids
 
-
 if __name__ == '__main__': 
     # Hartigan
     start = time.time()
