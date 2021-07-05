@@ -1,5 +1,3 @@
-print("I study git")
-
 import random
 import math
 import numpy as np
