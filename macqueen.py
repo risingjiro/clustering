@@ -83,6 +83,7 @@ def iris_visu(data, clusters):
             plt.autoscale()
             plt.grid()
     plt.show()
+    
 
 if __name__ == '__main__': 
     from sklearn.datasets import load_iris
